@@ -117,10 +117,11 @@ body {
     justify-content: space-between;
     align-items: center;
     
+    
 }
 
 .cards {
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 16px;
     padding: 30px;
     height 500px;
