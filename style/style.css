@@ -125,6 +125,7 @@ body {
     border-radius: 16px;
     padding: 30px;
     height 500px;
+    gap: 50px;
 }
 
 #btn-3 {
