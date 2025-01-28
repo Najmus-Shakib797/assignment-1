@@ -103,12 +103,14 @@ body {
    
     margin-top: 80px;
     margin-bottom: 80px;
+   
 }
 
 .card-box {
     width: 80%;
     margin: 0 auto;
-    background-color: rgba(255, 251, 251, 0.3);
+    background-color:white;
+    
     
    
 }
@@ -116,6 +118,7 @@ body {
 .card-content {
     justify-content: space-between;
     align-items: center;
+    
     
     
 }
@@ -128,7 +131,7 @@ body {
     gap: 50px;
 }
 
-#btn-3 {
+.btn-3 {
     background-color: rgba(9, 161, 92, 1);
 }
 
@@ -157,9 +160,10 @@ body {
 }
 .vision-bottom{
     margin-top: 80px;
-    border-radius: 10px;
-    background-color: rgba(244, 240, 240, 0.3);
+    border-radius: 16px;
+    background-color: rgba(241, 241, 241, 0.89);
     padding: 50px;
+    border: 1px solid white;
 }
 #cottesion{
     position: absolute;
@@ -167,3 +171,47 @@ body {
 .bottom-description{
     margin-bottom: 50px;
 }
+
+/* recent news related style */
+.news-box{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.content{
+    /* max-width: 700px; */
+}
+
+.news-description{
+    background-color:rgba(255, 255, 255, 0.83);
+    
+}
+.sattelite-box-1{
+    gap: 60px;
+    padding: 60px 55px;
+    border-radius: 24px;
+    background-color: rgba(241, 241, 241, 0.89);
+}
+.sattelite-box-2{
+    flex-direction: row-reverse;
+    background-color: rgba(241, 241, 241, 0.89);
+    border-radius: 24px;
+    margin-top: 24px;
+    padding: 60px 55px;
+
+ }
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.time-date{
+    margin: 10px 0;
+}
+
+ .news-btn{
+    margin-top: 30px;
+ }
+ 
+ 
