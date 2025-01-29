@@ -33,13 +33,17 @@ body {
 
 .btn-share {
     background-color: rgba(84, 144, 245, 1);
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
     color: #FFFFFF;
-    font-size: 18;
+    font-size: 20px;
     font-weight: 600;
     border: none;
 
+}
+.btn-3 {
+    
+    background-color: rgba(0, 106, 80, 1);
 }
 
 /* banner-section */
@@ -131,7 +135,8 @@ body {
     gap: 50px;
 }
 
-.btn-3 {
+
+.btn-3-card{
     background-color: rgba(9, 161, 92, 1);
 }
 
@@ -213,5 +218,104 @@ body {
  .news-btn{
     margin-top: 30px;
  }
+
+
+ /* donate related style */
+ .donate{
+    margin-top: 80px;
+ }
+ .donate-box{
+    width: 80%;
+    margin: 0 auto;
+ }
+ .heading{
+    text-align: center;
+ }
+ .donate-title{
+    color: rgba(14, 14, 14, 1);
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+ }
+ .money-card{
+    gap: 60px;
+    justify-content: center;
+    margin-bottom: 50px;
+ }
+ .money-amount{
+    background-color: rgba(241, 241, 241, 0.89);
+    border-radius: 16px;
+   
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8) ;
+    padding: 36px;
+ }
+ #donate-money{
+    background-color: rgba(198, 228, 214, 1);
+ }
+ .Other-amount{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+ }
+ 
+ .btn-container{
+    text-align: center;
+    margin-top: 32px;
+ }
+
+ .other-taka{
+    text-align: center;
+ }
+ .input{
+    width: 1032px;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgba(241, 241, 241, 0.89);
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    
+ }
+ /* suscribe related style */
+ .Subscribe{
+    margin-top: 80px;
+ }
+ .suscribe-box{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    padding top: 50px;;
+   
+ }
+ .suscribe-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top:100px ;
+    margin-bottom: 16px;
+ }
+.suscribe-heading{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.suscribe-input{
+    width: 700px;
+   margin-bottom: 30px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.input-box{
+    text-align: center;
+}
+.suscribe-content{
+   padding: 30px ;
+}
  
  
